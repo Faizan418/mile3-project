@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../Header/Header.module.css'
 import Navbar from '../Navbar/Navbar'
