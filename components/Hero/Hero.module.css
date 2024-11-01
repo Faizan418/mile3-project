@@ -12,7 +12,7 @@
 
 .head_one {
     font-size: 60px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     padding: 15px;
 }
@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    padding: 0 20px;
+    padding: 0 40px;
     /* border: 1px solid red; */
     margin-top: 50px;
     padding-bottom: 80px;
@@ -48,7 +48,7 @@
 @media(max-width: 1000px) {
     .two {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        padding: 0 10px;
+        padding: 0 20px;
     }
 }
 

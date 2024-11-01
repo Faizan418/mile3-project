@@ -24,7 +24,7 @@ function Navbar() {
             <div>
                 <ul className={`${styles.ul_bar} ${menuActive ? styles.active : ""}`}>
                     <Link href={"#"}><li className={styles.li_bar}>HOME</li></Link>
-                    <Link href={"#"}><li className={styles.li_bar}>BICYCLES</li></Link>
+                    <Link href={"#bicycles"}><li className={styles.li_bar}>BICYCLES</li></Link>
                     <Link href={"#"}><li className={styles.li_bar}>ACCESSORIES</li></Link>
                     <Link href={"#"}><li className={styles.li_bar}>ABOUT US</li></Link>
                     <Link href={"#"}><li className={styles.li_bar}>CONTACT</li></Link>

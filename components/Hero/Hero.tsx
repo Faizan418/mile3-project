@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 function Hero() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='bicycles'>
 
         <div className={styles.one}>
-            <h1 className={styles.head_one}>New Arrivals</h1>
+            <h1 className={styles.head_one}><i>New Arrivals</i></h1>
         </div>
         
         <div className={styles.two}>
@@ -40,6 +40,7 @@ function Hero() {
                 <h1>$350.00</h1>
             </div>
         </div>
+        
       
     </div>
   )

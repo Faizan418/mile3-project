@@ -1,6 +1,6 @@
 .containar{
     height: 110vh;
-    background-image: url(/images/moutain-bike.jpg);
+    background-image: url(/images/speciality-bike.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,17 +17,17 @@
     padding: 5px 70px;
 }
 .one{
-    border: 1px solid white;
-    width: 60%;
+    /* border: 1px solid white; */
+    width: 50%;
 }
 .box_1{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 15px;
     font-size: 20px;
     font-weight: 600;
 }
 .box_2{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 15px;
     font-size: 40px;
     font-weight: 900;
@@ -70,43 +70,11 @@
 .btn:hover{
     background-color: red;
 }
+
+
+
 .two{
-    border: 1px solid white;
-    width: 40%;
+    /* border: 1px solid white; */
+    width: 50%;
 
-}
-@media(max-width: 1060px){
-    .box_3{
-        font-size: smaller;
-    }
-    .box_4{
-        font-size: smaller;
-        flex-direction: column;
-
-    }
-    .one{
-        width: 100%;
-        position: relative;
-    }
-    .main{
-        padding: 5px 50px;
-    
-    }
-}
-@media(max-width: 470px){
-    .box_1{
-        font-size: 16px;
-    }
-    .box_2{
-        font-size: 30px;
-    }
-}
-@media(max-width: 411px){
-    .main{
-        padding: 5px 30px;
-    
-    }
-    .two{
-        display: none;
-    }
 }

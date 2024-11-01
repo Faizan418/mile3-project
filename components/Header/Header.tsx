@@ -13,8 +13,8 @@ function Header() {
       </div>
       <div className={styles.current}>
 
-        <div className={styles.onee}>Newly Launched</div>
-        <div className={styles.twoo}>Kryo X26 MTB</div>
+        <div className={styles.onee}><i> Newly Launched </i></div>
+        <div className={styles.twoo}><i> Kryo X26 MTB</i></div>
         <div className={styles.three}>
           <h3>Specifications:</h3>
           <p className={styles.pera}>&#xF18D; Lightweight 18 Frame</p>
