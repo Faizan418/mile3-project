@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import styles from '../Header/Header.module.css'
 import Navbar from '../Navbar/Navbar'
 
@@ -8,25 +7,26 @@ function Header() {
     <div className={styles.containar}>
       <Navbar/>
 
-        <div className={styles.main}>
+      <div className={styles.main}>
+          <div className={styles.one}></div>
+          <div className={styles.two}></div>
+      </div>
+      <div className={styles.current}>
 
-            <div className={styles.one}>
-
-                <h2 className={styles.heading_two}>Newly Leunched</h2>
-                  <div className={styles.h_o}>
-                    <h1 className={styles.heading_one}>Kryo X26 MTB </h1>
-                  </div>
-                <h3 className={styles.heading_three}>Specifications:</h3>
-                <p className={styles.pera}>Lightweight 18 Frame</p>
-                <p className={styles.pera}>Steel Suspension</p>
-                <p className={styles.pera}>Steel Hardtail Frame</p>
-                <Link href={"#"}><button className={styles.btn} type="button">BUY NOW</button></Link>
-
-            </div>
-
-            <div className={styles.two}></div>
-
+        <div className={styles.onee}>Newly Launched</div>
+        <div className={styles.twoo}>Kryo X26 MTB</div>
+        <div className={styles.three}>
+          <h3>Specifications:</h3>
+          <p className={styles.pera}>&#xF18D; Lightweight 18 Frame</p>
+          <p className={styles.pera}>&#xF18D; Steel Suspension Fork</p>
+          <p className={styles.pera}>&#xF18D; Steel Hardtail Frame</p>
         </div>
+        <div className={styles.fourr}>
+          <button className={styles.btn} type='button'>BUY NOW</button>
+        </div>
+
+      </div>
+
     </div>
   )
 }

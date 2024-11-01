@@ -4,6 +4,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../Navbar/Navbar.module.css'
 
+
+
 function Navbar() {
     
     const [menuActive, setMenuActive] = useState(false);
@@ -28,13 +30,15 @@ function Navbar() {
                     <Link href={"#"}><li className={styles.li_bar}>CONTACT</li></Link>
                 </ul>
             </div>
+
             <div className={styles.value}>
-                <p>$0.00 </p>
-                <Image src={"/images/cart-check.svg"} alt='cart' height={20} width={20}/>
+                <p>$0.00 &#xF23A; </p>
             </div>
+
             <div className={styles.hamburger} onClick={toggleMenu}>
                 &#9776;
             </div>
+            
         </nav>
       
     </div>

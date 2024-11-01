@@ -1,114 +1,149 @@
 .containar{
-    background-image: url("/images/bicycle-1-1.jpg");
-    /* background-position: center; */
+    background-image: url("/images/bike-hero.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center;
-    height: 100vh;
-    background-color: black;
+
 }
 .main{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
     height: 100vh;
-    color: white;
+    display: flex;
 }
 .one{
     width: 50%;
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.425);
-    /* align-items: center; */
-    padding: 50px 70px;
+    /* border: 1px solid white; */
+    background-color: rgba(20, 20, 20, 0.514);
     align-content: center;
-    font-family: sans-serif;
-    /* justify-content: center; */
-}
-.heading_two{
-    font-size: 28px;
-    font-weight: 600;
-    /* text-align: center; */
-    padding-bottom: 25px;
-    padding-top: 20px;
-    border: 1px solid white;
-}
-.heading_one{
-    font-size: 60px;
-    /* text-align: center; */
-    padding-bottom: 25px;
-    font-weight: 900;
-
-    /* display: inline-block; */
-    border: 1px solid white;
-}
-.heading_three{
-    font-size: 26px;
-    /* text-align: center; */
-    padding-bottom: 20px;
-    border: 1px solid white;
-}
-.pera{
-    font-size: 16px;
-    padding-left: 30px;
-    /* padding-bottom: 20px; */
-    border: 1px solid white;
-}
-.btn{
-    padding: 12px 25px;
-    margin-top: 40px;
-    color: white;
-    background-color: rgb(255, 61, 61);
-    /* border: none; */
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-.btn:hover{
-    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
 }
 .two{
     width: 50%;
     /* border: 1px solid white; */
-    background-color: rgba(253, 58, 58, 0.425);
+    background-color:  #df463e98;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.current{
+    /* border: 1px solid green; */
+    position: absolute;
+    height: 85vh;
+    width: 100%;
+    top: 90px;
+    padding: 10px 80px;
+    align-content: center;
+}
+.onee{
+    /* border: 1px solid white; */
+    padding: 15px;
+    /* padding-left: 70px; */
+    color: white;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.twoo{
+    /* border: 1px solid white; */
+    padding: 15px;
+    /* padding-left: 70px; */
+    color: white;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Racing Sans One";
+}
+.three{
+    /* border: 1px solid white; */
+    padding: 15px;
+    /* padding-left: 70px; */
+    color: white;
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.svg{
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+.pera{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.fourr{
+    /* border: 1px solid white; */
+    padding: 15px;
+    /* padding-left: 70px; */
+    color: white;
+    width: 100%;
 
 }
-@media(max-width: 905px){
-    .heading_one{
-        width: 500px;
+.btn{
+    padding: 10px 15px;
+    background-color: #df453e;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: red;
+}
+@media(max-width: 615px){
+    .onee{
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .twoo{
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    .three{
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+}
+@media(max-width: 475px){
+    .current{
+        padding: 5px 50px;
+    }
+
+}
+@media(max-width: 395px){
+    .current{
+        padding: 5px 30px;
+    }
+    .twoo{
         font-size: 50px;
     }
-    .heading_three{
-        width: 500px;
+    .onee{
+        font-size: 25px;
     }
-    .heading_two{
-        width: 500px;
-    
+}
+@media(max-width: 330px){
+    .current{
+        padding: 5px 20px;
+    }
+    .twoo{
+        font-size: 40px;
+    }
+}
+@media(max-width: 270px){
+    .onee{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .twoo{
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .three{
+        font-size: 20px;
+        margin-bottom: 10px;
     }
     .pera{
-        width: 500px;
+        font-size: 14px;
     }
-
-}
-@media(max-width: 905px){
-    .one{
-        padding: 50px 50px;
-    }
-}
-@media(max-width: 665px){
-    .one{
-        padding: 50px 30px;
-    }
-}
-@media(max-width: 470px){
-    .heading_one{
-        width: 300px;
-        font-size: 50px;
-    }
-    .btn{
-        position: absolute;
-    }
-}
-@media(max-width: 340px){
-    .heading_one{
-        font-size: 40px;
+    .current{
+        gap: 20px;
     }
 }

@@ -11,9 +11,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* border-bottom: 1px solid white; */
 
 }
-
+.logo_div{
+    padding: 10px;
+    /* border: 1px solid white; */
+}
 .ul_bar{
     /* border: 1px solid red; */
     display: flex;
@@ -59,12 +63,12 @@
         width: 100%;
         background-color: #0000006c;
         position: absolute;
-        top: 68px;
+        top: 90px;
         height: 300px;
         right: 0;
         font-size: 15px;
-        padding: 0px 80px;
-        backdrop-filter: blur(10px);
+        padding: 0px 50px;
+        backdrop-filter: blur(7px);
     }
     .li_bar {
         padding: 17px;
@@ -73,6 +77,9 @@
         color: white;
         transition: 0.6s;
         /* text-align: center; */
+      }
+      .li_bar:hover{
+        color: #df453e;
       }
     .value{
         display: none;
@@ -83,6 +90,7 @@
       }
     .hamburger{
         display: block;
+        
     }
 
 }
