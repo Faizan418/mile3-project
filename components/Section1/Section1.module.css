@@ -11,23 +11,23 @@
     color: whitesmoke;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 110vh;
     display: flex;
     padding: 5px 70px;
 }
 .one{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 60%;
 }
 .box_1{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 15px;
     font-size: 20px;
     font-weight: 600;
 }
 .box_2{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 15px;
     font-size: 40px;
     font-weight: 900;
@@ -71,7 +71,7 @@
     background-color: red;
 }
 .two{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 40%;
 
 }

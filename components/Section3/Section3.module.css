@@ -11,7 +11,7 @@
     color: whitesmoke;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 110vh;
     display: flex;
     padding: 5px 70px;
