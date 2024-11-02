@@ -1,0 +1,106 @@
+.containar{
+    background-image: url("/images/bike-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px
+}
+.one{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px 50px;
+    /* width: 80%; */
+}
+.first_heading{
+    /* border: 1px solid white; */
+    color: white;
+    /* padding: 10px; */
+    font-size: 20px;
+    font-weight: 900;
+}
+.two{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px 50px;
+}
+.second_heading{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    /* width: 50%; */
+}
+.three{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px 50px;
+}
+.third_heading{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+.four{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px 50px;
+}
+.btn{
+    /* border: 1px solid white; */
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #df453e;
+}
+.btn:hover{
+    background-color: red;
+}
+@media(max-width: 610px){
+    .main{
+        justify-content: left;
+        text-align: left;
+    }
+}
+@media(max-width: 490px){
+
+.second_heading{
+    font-size: 35px;
+    }
+    .first_heading{
+        font-size: 15px;
+    }
+}
+@media(max-width: 430px){ 
+    .one,.two,.three,.four{
+        padding: 8px 30px;
+    }
+    .third_heading{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 390px){
+    .second_heading{
+        font-size: 28px;
+    }   
+}
+    @media(max-width: 300px){
+        .second_heading{
+            font-size: 24px;
+        }   
+        .btn{
+            padding: 5px;
+        }
+
+    }

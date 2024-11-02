@@ -13,31 +13,31 @@ function Hero() {
         <div className={styles.two}>
             <div className={styles.card}>
                 <Image src={'/images/bicycle-1.jpg'} alt='one' height={180} width={270}/>
-                <p>Bicycles</p>
-                <h2>Kryo X26 MTB--Model K</h2>
+                <p className={styles.nam}>Bicycles</p>
+                <h2 className={styles.modl}>Kryo X26 MTB--Model K</h2>
                 <p>--------</p>
-                <h1>$350.00</h1>
+                <p className={styles.price}>$350.00</p>
             </div>
             <div className={styles.card}>
                 <Image src={'/images/bicycle-2.jpg'} alt='two' height={180} width={270}/>
-                <p>Bicycles</p>
-                <h2>Kryo X26 MTB--Model X</h2>
+                <p className={styles.nam}>Bicycles</p>
+                <h2 className={styles.modl}>Kryo X26 MTB--Model X</h2>
                 <p>--------</p>
-                <h1>$350.00</h1>
+                <p className={styles.price}>$350.00</p>
             </div>
             <div className={styles.card}>
                 <Image src={'/images/bicycle-3.jpg'} alt='three' height={180} width={270}/>
-                <p>Bicycles</p>
-                <h2>Kryo X26 MTB--Model Y</h2>
+                <p className={styles.nam}>Bicycles</p>
+                <h2 className={styles.modl}>Kryo X26 MTB--Model Y</h2>
                 <p>--------</p>
-                <h1>$350.00</h1>
+                <p className={styles.price}>$350.00</p>
             </div>
             <div className={styles.card}>
                 <Image src={'/images/bicycle-4.jpg'} alt='four' height={180} width={270}/>
-                <p>Bicycles</p>
-                <h2>Kryo X26 MTB--Model Z</h2>
+                <p className={styles.nam}>Bicycles</p>
+                <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
                 <p>--------</p>
-                <h1>$350.00</h1>
+                <p className={styles.price}>$350.00</p>
             </div>
         </div>
         

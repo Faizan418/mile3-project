@@ -24,7 +24,7 @@
     padding: 0 40px;
     /* border: 1px solid red; */
     margin-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
 }
 
 .card {
@@ -34,6 +34,17 @@
     border-radius: 5px;
     /* text-align: center; */
     transition: transform 0.3s;
+}
+.nam{
+    color: gray;
+}
+.modl{
+    font-weight: 700;
+}
+.price{
+    color: rgb(44, 44, 44);
+    font-size: small;
+    font-weight: 500;
 }
 
 .card img {
