@@ -1,113 +1,108 @@
-.containar{
-    height: 110vh;
-    background-image: url(/images/speciality-bike.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.containar {
+  height: 110vh;
+  background-image: url(/images/speciality-bike.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.main{
-    height: 100vh;
-    background-color: #00000060;
-    color: whitesmoke;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid white; */
-    height: 110vh;
-    display: flex;
-    padding: 5px 70px;
+.main {
+  height: 100vh;
+  background-color: #00000060;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid white; */
+  height: 110vh;
+  display: flex;
+  padding: 5px 70px;
 }
-.one{
-    /* border: 1px solid white; */
-    width: 60%;
+.one {
+  /* border: 1px solid white; */
+  width: 60%;
 }
-.box_1{
-    /* border: 1px solid white; */
-    padding: 15px;
-    font-size: 20px;
-    font-weight: 600;
+.box_1 {
+  /* border: 1px solid white; */
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
 }
-.box_2{
-    /* border: 1px solid white; */
-    padding: 15px;
-    font-size: 40px;
-    font-weight: 900;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+.box_2 {
+  /* border: 1px solid white; */
+  padding: 15px;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.box_3{
-    /* border: 1px solid white; */
-    padding: 15px;
-    /* font-size: 25px; */
-    font-weight: 500;
+.box_3 {
+  /* border: 1px solid white; */
+  padding: 15px;
+  /* font-size: 25px; */
+  font-weight: 500;
 }
-.box_4{
-    /* border: 1px solid white; */
-    padding: 15px;
-    display: flex;
-    gap: 30px;
-    font-weight: 500;
+.box_4 {
+  /* border: 1px solid white; */
+  padding: 15px;
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
 }
-.one_one{
-    /* border: 1px solid white; */
-    padding: 5px;
+.one_one {
+  /* border: 1px solid white; */
+  padding: 5px;
 }
-.two_two{
-    /* border: 1px solid white; */
-    padding: 5px;
+.two_two {
+  /* border: 1px solid white; */
+  padding: 5px;
 }
-.box_5{
-    /* border: 1px solid white; */
-    padding: 15px;
+.box_5 {
+  /* border: 1px solid white; */
+  padding: 15px;
 }
-.btn{
-    background-color:  #df453e;
-    color: white;
-    font-weight: 600;
-    border: none;
-    padding: 10px 25px;
-    cursor: pointer;
+.btn {
+  background-color: #df453e;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
 }
-.btn:hover{
-    background-color: red;
+.btn:hover {
+  background-color: red;
 }
 
-.two{
-    /* border: 1px solid white; */
-    width: 40%;
-
+.two {
+  /* border: 1px solid white; */
+  width: 40%;
 }
-@media(max-width: 1060px){
-    .box_3{
-        font-size: smaller;
-    }
-    .box_4{
-        font-size: smaller;
-        flex-direction: column;
-
-    }
-    .one{
-        width: 100%;
-        position: relative;
-    }
-    .main{
-        padding: 5px 50px;
-    
-    }
+@media (max-width: 1060px) {
+  .box_3 {
+    font-size: smaller;
+  }
+  .box_4 {
+    font-size: smaller;
+    flex-direction: column;
+  }
+  .one {
+    width: 100%;
+    position: relative;
+  }
+  .main {
+    padding: 5px 50px;
+  }
 }
-@media(max-width: 470px){
-    .box_1{
-        font-size: 16px;
-    }
-    .box_2{
-        font-size: 30px;
-    }
+@media (max-width: 470px) {
+  .box_1 {
+    font-size: 16px;
+  }
+  .box_2 {
+    font-size: 30px;
+  }
 }
-@media(max-width: 411px){
-    .main{
-        padding: 5px 30px;
-    
-    }
-    .two{
-        display: none;
-    }
+@media (max-width: 411px) {
+  .main {
+    padding: 5px 30px;
+  }
+  .two {
+    display: none;
+  }
 }
