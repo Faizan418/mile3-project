@@ -12,6 +12,7 @@ function Section4() {
       </div>
 
       <div className={styles.two}>
+
         <div className={styles.card}>
           <Image
             src={"/images/accessories-1.jpg"}
@@ -60,6 +61,79 @@ function Section4() {
           <p>--------</p>
           <p className={styles.price}>$30.00--$50.00</p>
         </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/accessories-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Accessories</p>
+          <h2 className={styles.modl}>Bicycle Gloves Red</h2>
+          <p>--------</p>
+          <p className={styles.price}>$30.00--$50.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/accessories-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Accessories</p>
+          <h2 className={styles.modl}>Bicycle Gloves Red</h2>
+          <p>--------</p>
+          <p className={styles.price}>$30.00--$50.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/accessories-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Accessories</p>
+          <h2 className={styles.modl}>Bicycle Gloves Red</h2>
+          <p>--------</p>
+          <p className={styles.price}>$30.00--$50.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/accessories-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Accessories</p>
+          <h2 className={styles.modl}>Bicycle Gloves Red</h2>
+          <p>--------</p>
+          <p className={styles.price}>$30.00--$50.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/accessories-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Accessories</p>
+          <h2 className={styles.modl}>Bicycle Gloves Red</h2>
+          <p>--------</p>
+          <p className={styles.price}>$30.00--$50.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/accessories-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Accessories</p>
+          <h2 className={styles.modl}>Bicycle Gloves Red</h2>
+          <p>--------</p>
+          <p className={styles.price}>$30.00--$50.00</p>
+        </div>
+
       </div>
 
       <div className={styles.last_div}>

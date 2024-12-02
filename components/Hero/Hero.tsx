@@ -12,6 +12,7 @@ function Hero() {
       </div>
 
       <div className={styles.two}>
+
         <div className={styles.card}>
           <Image
             src={"/images/bicycle-1.jpg"}
@@ -60,6 +61,127 @@ function Hero() {
           <p>--------</p>
           <p className={styles.price}>$350.00</p>
         </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src={"/images/bicycle-4.jpg"}
+            alt="four"
+            height={180}
+            width={270}
+          />
+          <p className={styles.nam}>Bicycles</p>
+          <h2 className={styles.modl}>Kryo X26 MTB--Model Z</h2>
+          <p>--------</p>
+          <p className={styles.price}>$350.00</p>
+        </div>
+        
       </div>
     </div>
   );

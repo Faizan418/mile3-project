@@ -8,6 +8,7 @@ import Section5 from "../../components/Section5/Section5";
 import Footer from "../../components/Footer/Footer";
 
 export default function Home() {
+
   return (
     <div>
       <Header />
